@@ -621,6 +621,7 @@ void CocoaVideoDriver::loop(Card* initial) {
             kCGLPFADoubleBuffer,
             kCGLPFAAccelerated,
             static_cast<CGLPixelFormatAttribute>(0),
+            kCGLPFAAllowOfflineRenderers,
     };
 
     cgl::PixelFormat pixel_format(attrs);

@@ -55,5 +55,7 @@
     <string>NSApplication</string>
     <key>NSRequiresAquaSystemAppearance</key>
     <false/>
+    <key>NSSupportsAutomaticGraphicsSwitching</key>
+    <true/>
 </dict>
 </plist>
